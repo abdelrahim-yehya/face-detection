@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FinalProject.jnlp">
+  <information>
+    <title>FinalProject</title>
+    <vendor>Souflexy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="C:\Users\aaa\Downloads\opencv\build\java\x64" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FinalProject.jar" size="13918" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.22.jar" size="2389216" download="eager" />
+    <jar href="lib\opencv-453.jar" size="709799" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="FaceDetection.FaceDetection"  name="FinalProject" />
+  <update check="always"/>
+</jnlp>
