@@ -19,8 +19,8 @@ public class DataBase {
     public DataBase() throws SQLException
     {
        String url="jdbc:mysql://localhost:3306/faces";
-       String user="root";
-       String pass="Abed.yehya123";
+       String user="***";
+       String pass="***";
      
         try {
              mycnx= DriverManager.getConnection(url,user,pass);
